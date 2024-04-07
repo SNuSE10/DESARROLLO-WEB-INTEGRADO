@@ -1,0 +1,109 @@
+/* Estilos para el contenedor de la barra de navegación */
+.navbar-container {
+    background-color: #0EBBC1;
+    color: #fff;
+    text-align: right;
+    padding: 10px 0;
+    border: 3px solid #87E5E8;
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    top: 0; /* Coloca la barra en la parte superior de la ventana */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+}
+
+/* Estilos para los enlaces dentro del contenedor */
+.navbar-container a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 15px;
+    font-size: 16px;
+}
+/* Cambiar el color de los enlaces al pasar el mouse sobre ellos */
+.navbar-container a:hover {
+    color: #fff; /* Color de resaltado */
+}
+
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Imagenes/fondo.png'); /* Configura el fondo inicial */
+    background-size: cover; /* Ajusta la imagen al tamaño de la ventana */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    margin: 0;
+    padding: 0;
+    transition: background-image 1s; /* Agrega una transición suave de 1 segundo para cambiar el fondo */
+}
+
+/* Estilos para el encabezado principal */
+header {
+    text-align: center;
+    background-color: #0EBBC1;
+    color: #fff;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 40px;
+}
+
+/* Estilos para el título de la sección */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Contenedor de las columnas */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para cada columna */
+.column {
+    text-align: center;
+    background-color: #FFEEE2;
+    border: 1px solid #FFBF90; /* modifica los bordes de los recuadros */
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para las imágenes dentro de las columnas */
+.column img {
+    width: 300px; /* Aumenta este valor para hacer las imágenes más grandes */
+    height: 300px; /* Ajusta la altura en consecuencia */
+    margin: 0 auto;
+}
+
+/* Estilos para los títulos de columna */
+h3 {
+    font-size: 1.2em;
+}
+
+/* Estilos para los párrafos dentro de las columnas */
+.column p {
+    margin: 5px 0;
+}
+
+/* Estilos para los saltos de línea en el texto */
+.column p br {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Estilos para el texto justificado en las columnas de Plato Especial y Nuestro Bar */
+.column:nth-child(4) p, .column:nth-child(5) p {
+    text-align: justify;
+}
+
+/* Estilos para el enlace al archivo de scripts */
+script {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
